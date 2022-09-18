@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>Estria - Login</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="logo.png">
+    </head>
+    <body>
+        <div class="gridcontainerl">
+            <div class="headerl">
+                <img class="logo" src="logo.png">
+                <h1>Estria</h1>
+            </div>
+            <div class="mainl">
+                <form>
+                    <fieldset>
+                        <legend>Log in</legend>
+                        Uživatelské jméno<input type="text" id="username"><br>
+                        Heslo<input type="password" id="password"><br>
+                        <p id="success" class="logtext"></p>  
+                    </fieldset>
+                </form>
+                <button class="logbutton" id="loginButton" onclick="login()">Log in</button>
+            </div>
+            <div class="navl">
+                <img class="kolejl" src="kolej.jpg">
+                <a class="navtext" href="index.html">Domů</a>
+            </div>            
+        </div>
+        <script src="script.js"></script>        
+    </body>
+</html>
