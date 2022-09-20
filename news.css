@@ -1,0 +1,45 @@
+body {
+    background-color: #631D76;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    bottom: 25%;
+}
+
+.headernews {
+    grid-area: header;
+    text-align: center;
+    color: #201A23;
+}
+
+.containernews {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "hlavniobsah";
+}
+
+.cojenoveho {
+    background-color: #201A23;
+    border-radius: 8px;
+    box-shadow:0 0 10px black;
+    margin: 10px;
+    grid-area: hlavniobsah;
+    display: grid;
+    grid-template-areas: 
+    "hlavniobsah";
+}
+
+h2 {
+    color: #fbfbfb;
+    font-size: 50px;
+    text-align: center;
+}
