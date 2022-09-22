@@ -36,53 +36,14 @@ h1 {
     display: grid;
     grid-template-areas: 
     "hlavniobsah"
-    "first"
-    "second";
+    "second"
+    "first";
 }
 
 h2 {
     color: #fbfbfb;
     font-size: 50px;
     text-align: center;
-}
-
-.first  {
-    background-color: #fbfbfb;
-    grid-area: first;
-    margin: 20px;
-    border-radius: 5px;
-    display: grid;
-    grid-template-areas: 
-    "icon1 headern1 infon1 infon1 infon1"
-    "time1 time1 time1 time1 time1";
-}
-
-.newsicon1 {
-    width: 200px;
-    border-radius: 5px;
-    margin: 10px;
-    grid-area: icon1;
-}
-
-.newsheader1 {
-    display: flex;
-    grid-area: headern1;
-    text-align: left;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.newsinfo1 {
-    display: flex;
-    grid-area: infon1;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.time1 {
-    text-align: right;
-    width: 100%;
-    grid-area: time1;
 }
 
 .second {
@@ -104,6 +65,8 @@ h2 {
 }
 
 .newsheader2 {
+    color: #9E4770;
+    font-size: 20px;
     display: flex;
     grid-area: headern1;
     text-align: left;
@@ -119,6 +82,47 @@ h2 {
 }
 
 .time2 {
+    text-align: right;
+    width: 100%;
+    grid-area: time1;
+}
+
+.first  {
+    background-color: #fbfbfb;
+    grid-area: first;
+    margin: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-areas: 
+    "icon1 headern1 infon1 infon1 infon1"
+    "time1 time1 time1 time1 time1";
+}
+
+.newsicon1 {
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    grid-area: icon1;
+}
+
+.newsheader1 {
+    color: #9E4770;
+    font-size: 20px;
+    display: flex;
+    grid-area: headern1;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsinfo1 {
+    display: flex;
+    grid-area: infon1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time1 {
     text-align: right;
     width: 100%;
     grid-area: time1;
