@@ -131,6 +131,7 @@ Existuje pár úseků, kde dodržujte maximální povolené rychlosti.
 1. Na obratišti Fotbalový stadion
 2. Na dolním patře Radnice (směr Nádraží Jinčice)
 3. Na obratišti Nádraží Jinčice
+
 U vybraných úseků se jako maximální povolená rychlost zobjeví `!`. V tomhle případě doporučujeme nastavit rychlost 15, popřípadě jet velmi pomalu. Je zde pravděbodnost vykolejení.
 1. Všechny vyhýbky na obratišti Fotbalový stadion
 2. Vyhýbka na konci obratiště Nádraží Jinčice
