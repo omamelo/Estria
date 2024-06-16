@@ -3,3 +3,4 @@
 ### Rychlá navigace:
 * [Jak řídit?](/tutorials/drive.md)
 * [Mapy](/Mapy/Mapy.md)
+* [F&Q](/tutorials/otazky.md)
